@@ -13,10 +13,6 @@ class Animal
 		@@all << self
 	end
 
-	# def zoo
-	# 	Zoo.all.select { |zoos| zoos.location == self }
-	# end
-
 	def self.find_by_species(speci)
 		Animal.all.select { |animals| animals.species == speci }
 	end
