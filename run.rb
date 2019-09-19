@@ -34,5 +34,5 @@ dog10 = Animal.new("Yanni", "Canis Lupus Familiaris", rand(1..10), yankee_zoo)
 snake5 = Animal.new("Henry", "El Snakus Maximus", rand(1..10), yankee_zoo)
 cat5 = Animal.new("Xavier", "Felis Catus", rand(1..10), yankee_zoo)
 
-binding.pry
+# binding.pry
 puts "done"
